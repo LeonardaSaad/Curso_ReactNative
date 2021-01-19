@@ -1,0 +1,51 @@
+----------------//------------------
+SISTEMA DE MÓDULOS:
+    AMD:
+        define(['./lib/jquery.js], function($){
+            $.ajax
+        });
+    
+    Common Js:
+        var express = require('express');
+        - Quando não passa um caminho procura no "node_modules"
+
+    ES6:
+        import React from 'react';
+        export myCustomModule;
+----------------//------------------
+ES6:
+    VAR vs LET vs CONST:
+        var     =>  funtion scope
+        let     =>  block scope
+        const   =>  constant
+    ----------------//------------------
+    DESTRUCTING:
+        Ex:
+            var pet = {
+                nome: "Toninho",
+                specie: 'hamster',
+                age: 1.6
+            };
+            var { age } = pet
+    ----------------//------------------
+    SPREAD OPERATOR:
+----------------//------------------
+IDEs:
+    - Integrated Development Environment
+    - Editores de texto
+----------------//------------------
+Statefull:
+    class Component extends React.Component {
+        render() {
+            return(
+                <View></View>
+            );
+        }
+    }
+Stateless | Functional:
+    const Component = (props) => (
+
+    );
+----------------//------------------
+PROPS:
+    

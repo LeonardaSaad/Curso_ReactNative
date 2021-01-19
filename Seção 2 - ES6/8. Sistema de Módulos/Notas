@@ -1,0 +1,13 @@
+SISTEMA DE MÓDULOS:
+    AMD:
+        define(['./lib/jquery.js], function($){
+            $.ajax
+        });
+    
+    Common Js:
+        var express = require('express');
+        - Quando não passa um caminho procura no "node_modules"
+
+    ES6:
+        import React from 'react';
+        export myCustomModule;
